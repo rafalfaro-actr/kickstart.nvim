@@ -84,6 +84,9 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+-- Relative line numbers
+vim.wo.relativenumber = true
+
 -- 4 spaces tabs
 
 vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
